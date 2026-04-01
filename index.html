@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bmw Car Website</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<style>
+  .card-container{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 100px;
+    margin-top: 30px;
+}
+.card{
+    width: 500px;
+    margin: 30px;
+    height: 750px;
+    height: auto;
+    box-shadow: 10px 10px 9px 7px grey;
+}
+.card img{
+    width: 100%;
+    height: 650px;
+}
+.card-content{
+    padding: 16px;
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .RM{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.bmw-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-col h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.footer-col ul li a, .social-links a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover, .social-links a:hover {
+    color: #fff;
+}
+
+.social-links a {
+    margin-right: 15px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    color: #767676;
+    font-size: 12px;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+</style>
+<body>
+    
+<nav class="navbar navbar-expand-lg navbar-dark text-bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="logo.png" height="50" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Products</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<section >
+  
+  <video autoplay muted loop id="background-video" class="video" width="100%"> 
+    
+      <source src="Bayerische Motoren Werke _ BMW Edit _ BMW M4 G82.mp4"  type="video/mp4">
+  </video>
+</section>
+<marquee behavior="" direction="right" style="text-align: center; color: white; margin-top: 15px; background-color: black; font-size: xx-large; font-weight: 900;">Welcome In Bmw Cars Collection</marquee>
+
+
+<div class="card-container">
+  <div class="card">
+      <img src="giphy.webp" alt="">
+      <div class="card-content">
+      <i class="fa fa-heart-o"></i>
+      <h4 style="color: black;">This car is a BMW M2 Coupé, a high-performance sports car from the BMW M series.</h4>
+      <h5 style="color: black;">The horsepower of the BMW M2 varies is to much good</h5>
+      <a href="#" class="btn btn-primary w-100" style="font-size: 21px; border-radius: 5px;">Add To Cart</a>
+      </div>
+  </div>
+  <div class="card">
+    <img src="bmw2.png" alt="">
+    <div class="card-content">
+    <i class="fa fa-heart-o"></i>
+    <h4 style="color: black;">The car in the image is a BMW M4, likely a Competition model</h4>
+    <h5 style="color: black;">Engine: It features a High-Performance M TwinPower Turbo inline 6-cylinder petrol engine. </h5>
+    <a href="#" class="btn btn-primary w-100" style="font-size: 21px; border-radius: 5px;">Add To Cart</a>
+    </div>
+</div>
+<div class="card">
+  <img src="bmw3.png" alt="">
+  <div class="card-content">
+  <i class="fa fa-heart-o"></i>
+  <h4 style="color: black;">The car in the image is a black BMW M4 coupe, potentially a F82 generation model</h4>
+  <h5 style="color: black;">Model: It appears to be a BMW M4, the high-performance version of the 4 Series coupe. </h5>
+  <a href="#" class="btn btn-primary w-100" style="font-size: 21px; border-radius: 5px;">Add To Cart</a>
+  </div>
+</div>
+</div>
+
+<footer class="bmw-footer">
+  <div class="footer-container">
+      <div class="footer-row">
+          <div class="footer-col">
+              <h4>Models</h4>
+              <ul>
+                  <li><a href="#">i7 Sedan</a></li>
+                  <li><a href="#">X5 SAV</a></li>
+                  <li><a href="#">M3 Sedan</a></li>
+                  <li><a href="#">iX SAV</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4>Services</h4>
+              <ul>
+                  <li><a href="#">Request a Quote</a></li>
+                  <li><a href="#">Find a Dealer</a></li>
+                  <li><a href="#">Book a Test Drive</a></li>
+                  <li><a href="#">Service & Parts</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                  <li><a href="#">About BMW</a></li>
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Press</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                  <a href="#">Facebook</a>
+                  <a href="#">Instagram</a>
+                  <a href="#">LinkedIn</a>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; 2026 BMW of North America, LLC. All Rights Reserved.</p>
+      </div>
+  </div>
+</footer>
+</body>
+</html>
